@@ -20,7 +20,7 @@ cd kotlin-gradle-cucumber-setup
 gradle test
 ```
 
-The tests should run successfully and produce the file `build/cucumber-report.html`. This can be opened in a browser to see the results of the test. To see what happens if a test fails, simply uncomment the `fail()` command in `src/test/kotlin/features/TodayFridayTests.kt` and rerun the tests.
+The tests should run successfully and produce the file `build/cucumber-report.html`. This can be opened in a browser to see the results of the tests. To see what happens if a test fails, simply uncomment the `fail()` command in `src/test/kotlin/features/TodayFridayTests.kt` and re-run the tests.
 
 The setup can be imported into IntelliJ so that the tests can be executed through its GUI by running the `CucumberTestRunner.kt`, or the tests can be run directly in the `is_it_friday_yet.feature` file.
 
